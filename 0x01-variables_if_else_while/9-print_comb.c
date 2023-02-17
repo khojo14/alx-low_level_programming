@@ -19,9 +19,9 @@ int main(void)
 		}
 		putchar((n % 10) + '0');
 		n++;
-	}
 	putchar(',');
 	putchar('\t');
+	}
 
 	return (0);
 }
