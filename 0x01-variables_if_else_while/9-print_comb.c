@@ -12,14 +12,12 @@ int main(void)
 	n = 0;
 	while (n < 10)
 	{
-		while (n < 10)
+		putchar(('n') + 0);
+		if (n < 10)
 		{
-			putchar((n % 10) + '0');
-			n++;
 			putchar(',');
 			putchar(' ');
 		}
-		putchar((n % 10) + '0');
 		n++;
 	}
 
