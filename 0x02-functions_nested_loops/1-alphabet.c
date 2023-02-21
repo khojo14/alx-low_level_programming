@@ -2,7 +2,7 @@
 /**
  * main- main function
  *
- * print_alphabet(void)- prints alphabets in lowercase
+ * print_alphabet- prints alphabets
  *
  * Return: (0) Success
  */
