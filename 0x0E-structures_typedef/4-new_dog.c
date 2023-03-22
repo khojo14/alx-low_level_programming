@@ -9,6 +9,7 @@
  *
  * Return: pointer to new dog
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	unsigned int nl, ol, i;
@@ -20,11 +21,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
-	nl = 0;
-	while (name[nl])
-	{
-		nl++;
-	}
+	for (nl = 0; name[nl]; nl++)
+		;
 	nl++;
 
 	dog->name = malloc(nl * sizeof(char));
@@ -37,11 +35,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		dog->name[i] = name[i];
 
 	dog->age = age;
-	ol = 0;
-	while (owner[ol])
-	{
-		ol++;
-	}
+	for (ol = 0; owner[ol]; ol++)
+		;
 	ol++;
 
 	dog->owner = malloc(ol * sizeof(char));
