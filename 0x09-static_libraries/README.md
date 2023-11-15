@@ -1,1 +1,0 @@
-ALX Static Libraries tasks
