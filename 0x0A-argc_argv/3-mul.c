@@ -18,5 +18,5 @@ int main(int argc, char *argv[])
                 return (1);
         }
         res = atoi(argv[1]) * atoi(argv[2]);
-        print("%d\n", res);
+        printf("%d\n", res);
         return (0);                                                                                                                             }
