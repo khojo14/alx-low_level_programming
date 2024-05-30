@@ -6,7 +6,7 @@
  * @argc: argument count
  * @argv: argument vector
  *
- * Return: the result or 1 if error
+ * Return: the sum, 1 if error or 0 if no arg is passed
  */
 int main(int argc, char *argv[])
 {
